@@ -12,7 +12,7 @@
 #所有用户,我，宝贝，胖哥
 #"user": ['oiF8I6Ds8pHlZ2uig8xBKekYZ3zo','oiF8I6MbjSmJNUD-heziSmLVkL_Q','oiF8I6ATkI7PBZBAcbeDBFi5iLn0'],
 #程序调试用户,只有我
-"user": ['oiF8I6Ds8pHlZ2uig8xBKekYZ3zo','oiF8I6ATkI7PBZBAcbeDBFi5iLn0','oiF8I6MbjSmJNUD-heziSmLVkL_Q'],
+"user": ['oiF8I6Ds8pHlZ2uig8xBKekYZ3zo','oiF8I6MbjSmJNUD-heziSmLVkL_Q'],
 
 # 信息配置
 # 和风天气apikey
@@ -20,9 +20,9 @@
 # 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
 "region": "章丘",
 # 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
-"birthday1": {"name": "静静宝贝", "birthday": "1998-10-06"},
+"birthday1": {"name": "静静宝贝", "birthday": "r1998-09-11"},
 # 生日2
-"birthday2": {"name": "胖哥", "birthday": "1997-05-06"},
+"birthday2": {"name": "胖哥", "birthday": "r1997-03-30"},
 # 在一起的日子，格式同上，暂不不支持农历
 "love_date": "2022-01-01",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
@@ -40,10 +40,10 @@
 "class2": {"name":"医学超声影像学B ,亓恒新，A202,第7-8节",    "start_week":9,          "over_week":14,      "xingqi":1,   },
 "class3": {"name":"※医学影像诊断学B ，张双军，B104,第1-2节",   "start_week":1,          "over_week":8,     "xingqi":2,   },
 "class4": {"name":"※医学影像诊断学B ，张双军，B304,第7-8节",   "start_week":1,          "over_week":8,     "xingqi":2,   },
+"class5": {"name":"医学影像技术综合技能 ，黄忠浩\董怡琳\仇度旺，医学中心影像虚拟仿真实验室,第11-12节",   "start_week":3,          "over_week":6,     "xingqi":2,   },
 "class5": {"name":"医学影像技术综合技能 ，黄忠浩\董怡琳\仇度旺，医学中心影像虚拟仿真实验室,第1-4节",   "start_week":9,          "over_week":12,     "xingqi":2,   },
 "class6": {"name":"放射治疗技术B  ,李一明, A110 ,第7-8节",    "start_week":10,         "over_week":13,      "xingqi":2,    },
 "class7": {"name":"内科学    ,许 峰 ，A212,第1-2节",    "start_week":5,         "over_week":8,      "xingqi":3,    },
-"class8": {"name":"医学影像技术综合技能 ，黄忠浩\董怡琳\仇度旺，医学中心影像虚拟仿真实验室,第1-4节",   "start_week":2,          "over_week":5,     "xingqi":4,   },
 "class9": {"name":"外科学总论B   ,赵 强 ，B402,第7-8节",   "start_week":1,         "over_week":12,      "xingqi":4,    },
 "class10": {"name":"医学超声影像学B ,亓恒新，B204,第3-4节",    "start_week":9,          "over_week":14,      "xingqi":4,   },
 "class11": {"name":"介入放射学B   ,彭 伟 ，B206,第1-2节",    "start_week":1,        "over_week":12,      "xingqi":5,    },
@@ -51,6 +51,6 @@
 "class13": {"name":"形势与政策  ,张桐桐 ，线 上,第9-10节",    "start_week":6,        "over_week":8,      "xingqi":5,    },
 "class14": {"name":"※医学图像处理B   ,赵 磊，A302,第1-4节",    "start_week":1,          "over_week":8,      "xingqi":6,    },
 "class15": {"name":"医疗纠纷的防范与处理B ,辛绍伟, A108 ,第3-4节",    "start_week":9,         "over_week":16,      "xingqi":6,    },
-"class16": {"name":"医学影像技术综合技能 ，黄忠浩\董怡琳\仇度旺，医学中心影像虚拟仿真实验室,第7-10节/第11-12节",   "start_week":2,          "over_week":14,     "xingqi":6,   },
+"class16": {"name":"医学影像技术综合技能 ，黄忠浩\董怡琳\仇度旺，医学中心影像虚拟仿真实验室,第7-10节/第11-12节",   "start_week":2,          "over_week":14,   "xingqi":6, },
 
 }
