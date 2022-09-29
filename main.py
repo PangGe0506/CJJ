@@ -111,11 +111,11 @@ def get_birthday(birthday, year, today):
     if today > year_date:
         if birthday_year[0] == "r":
             # 获取农历明年生日的月和日
-        try:
-            r_last_birthday = ZhDate((year + 1), r_mouth, r_day).to_datetime().date()
-        except TypeError:
-          r_last_birthday = ZhDate((year + 1), r_mouth, r_day-1).to_datetime().date()
-        birth_date = date((year + 1), r_last_birthday.month, r_last_birthday.day)
+            try:
+                r_last_birthday = ZhDate((year + 1), r_mouth, r_day).to_datetime().date()
+            except TypeError:
+                r_last_birthday = ZhDate((year + 1), r_mouth, r_day-1).to_datetime().date()
+            birth_date = date((year + 1), r_last_birthday.month, r_last_birthday.day)
         else:
             birth_date = date((year + 1), birthday_month, birthday_day)
         birth_day = str(birth_date.__sub__(today)).split(" ")[0]
